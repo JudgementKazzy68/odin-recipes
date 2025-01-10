@@ -1,36 +1,83 @@
 * {
     font-family: "Brush Script MT', "Times New Roman", sans-serif
 }
+/*HOMEPAGE*/
+.home-body {
+    width: 500px;
+    border: 3px solid black;
+    box-sizing: border-box;
+}
 
-/*h1 page titles*/
+.home-title {
+    text-align: center;
+    color: whitesmoke;
+    font-family: "Brush Script MT", cursive, sans-serif;
+    text-shadow: 2px 2px black;
+
+}
+
+.home-toc {
+    display: table;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.home-toc li {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+    font-weight: 1000;
+    margin: 10px;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+/*^^^HOMEPAGE*^^^/    
+
+/*h1 recipe titles*/
 h1,
 .description-header {
-    color: #2e3561;
+    color: darkslateblue;
 }
 
 .description {
     text-indent: 20px;
+    color: #F1F1F2;
 }
 
 /*unorganized lists*/
 
 ul li {
     list-style: square;
+    color: #F1F1F2;
 }
 
+/*organized list*/
 ol li {
     margin: 10px;
+    color: #F1F1F2;
+}
+
+p {
+    color: #F1F1F2;;
 }
 
 
 /*back home link*/
 .home-link {
-    background-color: #2e3561;
+    background-color: #A1D6E2;
     color: black;
     font-weight: 700;
     font-size: 32px;
     text-decoration: none;
     text-align: center;
+}
+
+a:active.home-link {
+    color: black;
+}
+
+a:visited.home-link {
+    color: black;
 }
 
 img {
@@ -49,14 +96,17 @@ img {
 }
 
 .preparation {
-    color: #483d8b;
+    color: darkslateblue;
     text-decoration: underline;
 }
 
 body {
-    background-color:#3d788b
+    background-color:#1995AD
 }
 
 a:active {
-    color: #2e3561;
+    color: #A1D6E2;
+}
+a:visited {
+    color: #A1D6E2
 }
